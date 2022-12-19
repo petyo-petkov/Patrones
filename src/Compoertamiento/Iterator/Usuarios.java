@@ -5,15 +5,26 @@ import java.util.ArrayList;
 public class Usuarios implements UsuarioIterator {
 
     private ArrayList<Usuario> usuarios = new ArrayList();
-
-    public void Crear(Usuario usuario) {
+    private int posicion = 0;
+    public void crear(Usuario usuario) {
         usuarios.add(usuario);
     }
 
     @Override
-    public Usuario siguiente() { return null; }
-    @Override public boolean hayMas() { return false; }
+    public Usuario siguiente() {
+        Usuario usuario = usuarios.get(posicion);
+        posicion = posicion + 1;
+        return usuario;
+    }
+
     @Override
-    public void reinicia() { }
+    public boolean hayMas() {
+        return posicion < usuarios.size();
+    }
+
+    @Override
+    public void reinicia() {
+        posicion = 0;
+    }
 
 }
