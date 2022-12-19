@@ -1,4 +1,4 @@
-package Compoertamiento.Iterator;
+package Comportamiento.Iterator;
 
 import java.util.ArrayList;
 

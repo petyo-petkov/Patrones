@@ -1,4 +1,4 @@
-package Compoertamiento.Observer;
+package Comportamiento.Observer;
 
 import java.util.ArrayList;
 

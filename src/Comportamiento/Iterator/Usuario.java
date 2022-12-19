@@ -1,4 +1,4 @@
-package Compoertamiento.Iterator;
+package Comportamiento.Iterator;
 
 public class Usuario {
 

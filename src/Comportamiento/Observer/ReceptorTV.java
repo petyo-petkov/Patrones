@@ -1,4 +1,4 @@
-package Compoertamiento.Observer;
+package Comportamiento.Observer;
 
 public class ReceptorTV implements Receptor{
     @Override
