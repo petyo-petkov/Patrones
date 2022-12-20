@@ -7,7 +7,7 @@ public class EstadoBloqueado extends Estado{
 
     @Override
     public String desbloquear() {
-        telefono.cambiaEstado(new EstadoBloqueado(telefono));
+        telefono.cambiaEstado(new EstadoDesbloqueado(telefono));
         return "desbloquear(), Móvil desbloqueado";
     }
 
