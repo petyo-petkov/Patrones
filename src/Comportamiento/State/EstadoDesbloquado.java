@@ -1,7 +1,7 @@
 package Comportamiento.State;
 
-public class EstadoDesbloqueado extends Estado{
-    public EstadoDesbloqueado(Telefono telefono) {
+public class EstadoDesbloquado extends Estado{
+    public EstadoDesbloquado(Telefono telefono) {
         super(telefono);
     }
 

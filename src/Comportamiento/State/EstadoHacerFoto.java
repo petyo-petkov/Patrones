@@ -1,7 +1,7 @@
 package Comportamiento.State;
 
-public class CamaraAbierta extends Estado{
-    public CamaraAbierta(Telefono telefono) {
+public class EstadoHacerFoto extends Estado{
+    public EstadoHacerFoto(Telefono telefono) {
         super(telefono);
     }
 
