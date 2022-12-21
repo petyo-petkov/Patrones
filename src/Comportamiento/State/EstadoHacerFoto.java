@@ -14,7 +14,6 @@ public class EstadoHacerFoto extends Estado{
     }
     @Override
     public String hacerFoto() {
-        //telefono.cambiaEstado(new EstadoBloqueado(telefono));
-        return "la foto se a hecho " ;
+        return "la foto se a hecho ";
     }
 }
